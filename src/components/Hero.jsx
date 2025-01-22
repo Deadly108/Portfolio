@@ -3,6 +3,9 @@ import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 
+// Import the image if it's in src/assets
+// import profileImage from '../assets/profile.png';
+
 const Hero = () => {
   return (
     <section className="pt-24 md:pt-32 min-h-screen flex items-center bg-white dark:bg-gray-900">
@@ -88,13 +91,14 @@ const Hero = () => {
                           transform -translate-y-10"
             >
               <img 
-                src="public/profile.png"
+                src="/profile.png" // Or use {profileImage} if imported
                 alt="Profile"
                 className="w-99 h-99 object-contain transform hover:scale-105 transition-transform duration-300"
               />
             </div>
           </motion.div>
         </div>
+        
       </div>
     </section>
   );
