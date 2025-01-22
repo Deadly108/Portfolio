@@ -2,6 +2,8 @@
 
 This repository contains the source code for my portfolio website, built with Vite and deployed on GitHub Pages.
 
+The project is live at [Portfolio on GitHub Pages](https://deadly108.github.io/Portfolio/).
+
 ## Prerequisites
 
 Ensure you have the following installed on your machine:
@@ -66,6 +68,8 @@ npm run preview
 ```
 
 ## Deployment
+
+The project is deployed and accessible at [Portfolio on GitHub Pages](https://deadly108.github.io/Portfolio/).
 
 The project is deployed using GitHub Pages. Ensure the `vite.config.js` file is configured correctly for GitHub Pages deployment.
 
