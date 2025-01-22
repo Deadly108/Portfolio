@@ -91,8 +91,8 @@ const Hero = () => {
                           transform -translate-y-10"
             >
               <img 
-                src="/profile.png" // Or use {profileImage} if imported
-                alt="Profile"
+                src="/Portfolio/public/profile.png" 
+                alt="Profile" 
                 className="w-99 h-99 object-contain transform hover:scale-105 transition-transform duration-300"
               />
             </div>

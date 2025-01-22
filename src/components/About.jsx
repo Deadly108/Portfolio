@@ -53,7 +53,7 @@ const About = () => {
                             flex items-center justify-center
                             hover:bg-white/70 dark:hover:bg-white/10 transition-all duration-300 shadow-lg">
                 <img 
-                  src="public/profile2.png"
+                  src="/Portfolio/public/profile2.png"
                   alt="Profile"
                   className="w-82 h-82 object-contain transform hover:scale-105 transition-transform duration-300"
                 />
