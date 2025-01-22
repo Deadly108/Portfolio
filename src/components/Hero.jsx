@@ -91,7 +91,7 @@ const Hero = () => {
                           transform -translate-y-10"
             >
               <img 
-                src="/Portfolio/public/profile.png" 
+                src="./profile.png" 
                 alt="Profile" 
                 className="w-99 h-99 object-contain transform hover:scale-105 transition-transform duration-300"
               />
