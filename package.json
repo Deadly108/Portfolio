@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Deadly108.github.io/portfolio",
+  "homepage": "https://Deadly108.github.io/Portfolio",
   "name": "om-patole-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --port 8080",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
