@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Black Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 2px solid #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333333;
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar {
+  background-color: #1f2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border: 2px solid #1f2937;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #333333;
+}
+
+:root {
+  --primary: #6366f1; /* Indigo-500 */
+  --secondary: #818cf8; /* Indigo-400 */
+  --accent: #a855f7; /* Purple-500 */
+  
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html {
+  scroll-padding-top: 4rem; /* Add padding for fixed navbar */
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16;
+  }
+  
+  .heading {
+    @apply text-3xl sm:text-4xl md:text-5xl font-bold mb-6 sm:mb-8 bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent;
+  }
+  
+  .subheading {
+    @apply text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-8 sm:mb-12;
+  }
+
+  .nav-link {
+    @apply text-sm sm:text-base hover:text-indigo-500 dark:hover:text-purple-400 transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg 
+    hover:from-indigo-600 hover:to-purple-600 transition-all duration-300 shadow-lg 
+    hover:shadow-indigo-500/25;
+  }
+}
