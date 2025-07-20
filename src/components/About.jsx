@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profile2 from '../assets/profile2.gif'
 
 const About = () => {
   const containerVariants = {
@@ -54,7 +55,7 @@ const About = () => {
                             border-4  border-purple-500 rounded-3xl hover:shadow-[0_0_40px_10px_rgba(168,85,247,0.5)]
                             transition-all duration-300 shadow-lg group">
                 <img 
-                  src="/src/assets/profile2.gif"
+                  src={profile2}
                   alt="Profile"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />

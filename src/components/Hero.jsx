@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import profile from '../assets/profile.gif'
+
 
 const Hero = () => {
   return (
@@ -88,7 +90,7 @@ const Hero = () => {
                           transform -translate-y-12 border-1 border-purple-500 "
             >
               <img 
-                src="/src/assets/profile.gif"
+                src={profile}
                 alt="Profile"
                 className="w-99 h-99 object-contain transform hover:scale-105 duration-300 border-4 border-purple-500 rounded-3xl hover:shadow-[0_0_40px_10px_rgba(168,85,247,0.5)]
                             transition-all shadow-lg group"
