@@ -85,12 +85,13 @@ const Hero = () => {
               className="w-full h-[600px] backdrop-blur-2xl bg-white/5 dark:bg-gray-800/5 rounded-3xl
                           flex items-center justify-center
                           hover:bg-white/10 dark:hover:bg-gray-800/10 transition-all duration-300
-                          transform -translate-y-12"
+                          transform -translate-y-12 border-1 border-purple-500 "
             >
               <img 
-                src="/src/assets/profile.png"
+                src="/src/assets/profile.gif"
                 alt="Profile"
-                className="w-99 h-99 object-contain transform hover:scale-105 transition-transform duration-300"
+                className="w-99 h-99 object-contain transform hover:scale-105 duration-300 border-4 border-purple-500 rounded-3xl hover:shadow-[0_0_40px_10px_rgba(168,85,247,0.5)]
+                            transition-all shadow-lg group"
               />
             </div>
           </motion.div>

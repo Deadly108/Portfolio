@@ -49,13 +49,14 @@ const About = () => {
               </motion.p>
             </div>
             <motion.div variants={itemVariants} className="relative">
-              <div className="w-full h-[500px] bg-white/50 dark:bg-white/5 backdrop-blur-xl rounded-3xl
-                            flex items-center justify-center
-                            hover:bg-white/70 dark:hover:bg-white/10 transition-all duration-300 shadow-lg">
+              <div className="w-full h-[500px] bg-white/50 dark:bg-white/5 backdrop-blur-xl
+                            flex items-center justify-center overflow-hidden
+                            border-4  border-purple-500 rounded-3xl hover:shadow-[0_0_40px_10px_rgba(168,85,247,0.5)]
+                            transition-all duration-300 shadow-lg group">
                 <img 
-                  src="/src/assets/profile2.png"
+                  src="/src/assets/profile2.gif"
                   alt="Profile"
-                  className="w-82 h-82 object-contain transform hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
             </motion.div>
