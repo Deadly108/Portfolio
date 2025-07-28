@@ -1,4 +1,4 @@
-# My Vite.js Portfolio
+# My Portfolio
 
 A brief introduction to your portfolio. Mention that it's a showcase of your skills and projects, built with modern tools like Vite.js for a fast and efficient development experience.
 
@@ -18,9 +18,8 @@ A brief introduction to your portfolio. Mention that it's a showcase of your ski
 ### 🛠️ Tech Stack
 
 - **Framework:** [Vite.js](https://vitejs.dev/)
-- **Styling:** [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) / [TailwindCSS](https://tailwindcss.com/) 
-- **Deployment:** [GitHub Pages](https://pages.github.com/)/ [Vercel](https://vercel.com/) 
-
+- **Styling:** [TailwindCSS](https://tailwindcss.com/) 
+- **Deployment:** [GitHub Pages](https://pages.github.com/)
 ---
 
 ### 🚀 Getting Started
