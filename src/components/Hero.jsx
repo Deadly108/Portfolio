@@ -48,7 +48,7 @@ const Hero = () => {
               <div className="flex gap-4 items-center">
                 {/* GitHub Link */}
                 <a 
-                  href="https://github.com/Deadly108" 
+                  href="https://github.com/OmPatole" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-2xl text-gray-600 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-purple-400 transition-colors"
@@ -57,7 +57,7 @@ const Hero = () => {
                 </a>
                 {/* LinkedIn Link */}
                 <a 
-                  href="https://www.linkedin.com/in/om-patole-a52aa02b6/" 
+                  href="https://www.linkedin.com/in/om-patole/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-2xl text-gray-600 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-purple-400 transition-colors"

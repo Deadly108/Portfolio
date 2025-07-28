@@ -58,7 +58,7 @@ const Contact = () => {
                 </div>
                 <div className="flex space-x-4 mt-6">
                   <a
-                    href="https://www.linkedin.com/in/om-patole-a52aa02b6/"
+                    href="https://www.linkedin.com/in/om-patole/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -66,7 +66,7 @@ const Contact = () => {
                     <FiLinkedin className="w-6 h-6" />
                   </a>
                   <a
-                    href="https://github.com/Deadly108"
+                    href="https://github.com/OmPatole"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
