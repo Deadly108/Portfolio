@@ -14,21 +14,22 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (!element) return;
-    
-    const navbarHeight = 64; // Height of the fixed navbar
-    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-    const offsetPosition = elementPosition - navbarHeight;
-
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth'
-    });
+const scrollToSection = (sectionId) => {
     setMobileMenuOpen(false);
-  };
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (!element) return;
+      
+      const navbarHeight = 64; // Height of the fixed navbar
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - navbarHeight;
 
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }, 100);
+  };
   return (
     <motion.nav
       initial={{ y: -100 }}
